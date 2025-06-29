@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doggie</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8dcf20dfb2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="#top" class="header">
+        <div class="header__container">
+            <a href="#top" class="header__logo">Doggie</a>
+            
+            <nav class="header__nav">
+                    <a href="#hotel" class="header__link">About Us</a>
+                    <a href="#feedback" class="header__link">Feedback</a>
+                    <a href="#info" class="header__link">Info</a>
+            </nav>
+        </div>
+     </header>
+
+    <main class="main">
+
+        <section class="welcome">
+            <div class="welcome__container">
+                <div class="welcome__text">
+                    <h1 class="welcome__title">Dog hotel number one</h1>
+                    <h4 class="welcome__subtitle">With care for your furry friends</h4>
+                    <p class="welcome__paragraph">Comfortable rooms up to $15 day</p>
+                    <p class="welcome__paragraph">individual nutrition for your pets</p>
+                    <p class="welcome__paragraph">3-time walking and training with a dog trainer</p>
+                <button class="welcome__btn">Callback</button>
+                </div>
+                <img class="welcome__img" src="/img/welcome.webp" alt="img">
+            </div>
+        </section>
+
+        <section id="hotel" class="hotel">
+            <div class="hotel__container">
+                <div class="hotel__img-wrapper">
+                    <img src="/img/reception.jpg" alt="img">
+                </div>
+                <div class="hotel__desc">
+                    <p class="hotel__text">Our hotel offers your pet comfortable living conditions away from home. We take care of each four-legged guest individually</p>
+                    <p class="hotel__text">The rooms are equipped with soft furniture, toys and spacious recreation areas. Care is provided by professional dog handlers and veterinarians who monitor the health and mood of your pets.</p>
+                    <p class="hotel__text">We use modern security and surveillance systems, which allows you to monitor your pet online. Your dog is always under the supervision of professionals.</p>
+                    <p class="hotel__text">Every day is filled with games, walks and activities. The dogs get physical exercise and emotional support.</p>
+                    <button class="hotel__btn">Callback</button>
+                </div>
+                <div class="hotel__img-wrapper">
+                    <img src="/img/дельта.jpg" alt="img">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="feedback" class="feedback">
+            <div class="feedback__container">
+                <div class="feedback__form-wrapper">
+                    <h2 class="feedback__title">Request a call back</h2>
+                <form class="feedback__form" action="/send_form.php" method="post">
+                    <label class="feedback__label" for="nameInput">Name:</label><br>
+                    <input class="feedback__input feedback__input_type_text" type="text" id="nameInput" name="username"><br><br>
+                    
+                    <label class="feedback__label" for="emailInput">E-mail:</label><br>
+                    <input class="feedback__input feedback__input_type_email" type="email" id="emailInput" name="useremail"><br><br>
+                    
+                    <div class="feedback__checkbox-container">
+                        <input class="feedback__checkbox" type="checkbox" id="agreeCheckbox" name="agreement" value="agreed">
+                        <label class="feedback__checkbox-label" for="agreeCheckbox">I accept Privacy policy</label>
+                    </div>
+                    
+                    <button class="feedback__submit-button" type="submit">Submit form</button>
+                </form>
+            </div>
+            </div>
+        </section>
+</main>
+
+
+<footer id="info" class="footer">
+    <div class="footer__container">
+        <div class="footer__row">
+            <a href="#" class="footer__link">Contacts</a>
+            <a href="#" class="footer__link">About Us</a>
+            <a href="#" class="footer__link">Help</a>
+        </div>
+        
+        <div class="footer__down">
+            <div class="footer__wrapper">
+                <a href="#top" class="footer__logo">Doggie</a>
+                <p class="footer__copyright">© 2024, Copyright.</p>
+            </div>
+            
+            <div class="footer__social-icons">
+                <div class="footer__icons-container">
+                <a href="" class="footer__icon footer__icon--facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" class="footer__icon footer__icon--youtube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="" class="footer__icon footer__icon--linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="" class="footer__icon footer__icon--instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" class="footer__icon footer__icon--telegram"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+                <div class="footer__policy">
+                    <a href="#!" class="footer__policy-link">Privacy Policy</a>
+                </div>
+            </div>
+            
+            
+            <div class="footer__actions">
+                <button class="footer__btn">Order</button>
+                <p class="footer__terms">Terms of Use</p>
+            </div>
+        </div>
+    </div>
+</footer>      
+</body>
+</html>
