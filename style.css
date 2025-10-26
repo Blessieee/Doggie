@@ -1082,7 +1082,7 @@ height: auto;
 }
 
 .feedback__label {
-font-size: 24px; 
+font-size: 18px; 
 color: #333; 
 font-family: Arial, sans-serif;
 }
@@ -1122,7 +1122,7 @@ font-family: Arial, sans-serif;
 display: inline-block;
 width: 200px;
 height: 30px;
-font-size: 20px;
+font-size: 15px;
 text-align: center;
 background-color: #383837;
 color: #f0eeee;
@@ -1383,13 +1383,15 @@ white-space: nowrap;
 
 /*-------------------------------------------------------------------feedback 320px----------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 320px) { 
+@media (max-width: 320px) { 
   .feedback__container {
   width: 100%;
   height: auto;
   }
 
   .feedback__form-wrapper {
+    max-width: 300px;
+    background-size: contain;
     padding: 10px; /* ещё больше сокращаем отступы */
   }
 
@@ -1449,7 +1451,7 @@ font-family: Arial, sans-serif;
 
 /*-------------------------------------------------------------------адаптация футера под 320px--------------------------------------------*/
 /* Адаптация стилей для ширины экрана 320px */
-@media only screen and (max-width: 320px) {
+@media (max-width: 320px) {
   .footer__container {
     max-width: 320px;
     width: 100%;
